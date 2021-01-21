@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,16 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>CodeInPipes</h1>
-    <ul>
-      <li>
-        <Link to="/" activeStyle={{ color: 'red'}}>Home</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-    </ul>
-    
+    <h1>CodeInPipes</h1>       
   </Layout>
 )
 
