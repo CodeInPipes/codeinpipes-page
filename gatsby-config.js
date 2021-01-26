@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `CodeInPipes Page`,
+    position:`DevOps and Lifelong Student`,
     description: `Página voltada para infraestrutura, automação e outras tecnologias`,
     author: `@codeinpipes`,
   },
